@@ -1,0 +1,41 @@
+
+
+
+	cd		Change Directory
+	pwd		Print Working Directory
+	ls		List (List the contents of the current working directory)
+	clear
+	open		. (abrir janela do diretorio) nomearquivo.ext (abrir arquivo)
+	ls -all		lista o conteudo do diretorio e infos adicionais (-all pode ser visto como -a)
+			(é possivel arrastar uma pasta para o terminal para traçar o caminho dela)
+	
+	git clone	Clona o repositorio de acordo com o endereços https infomado
+	git status	Verifica o status do repositorio (qual branch eu estou, se foi modificada ou nao)
+	git commit	Commitar, sempre usar as labels -a e descrição com -m
+	git log		See locally the history of the git commits (ver commits locais) (se colocar -2 mostrará apenas os dois ultimos commits)
+			Vou chegar em um (END), precione : (shift + ;) e após isso 'q'
+	git remote	Mostra os locais remotos assosiados ao projeto ( -v para mais infos)
+			Origin -> origem do repositorio (no caso github)
+	
+	git push (remote) (branch)
+			No caso (git push origin master) por exemplo, envia para o repositorio do servidor
+			remote -> repositorio destino		branch-> qual branch eu quero enviar
+	
+
+
+
+	git config --global usar.name "Your Name"
+			Diz o nome de quem está commitando (apenas caso seja solicitado)
+	git config --global user.email you@example.com
+			Diz o email de quem está commitando (apenas caso seja solicitado)
+	git config --list
+			Lista as infos de config do git
+
+
+
+
+	-a		All, todos, fazer para tudo
+	-m		message, comentario do commit
+
+
+
